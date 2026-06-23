@@ -1,0 +1,33 @@
+name: triposhare
+description: A Flutter app for sharing photos and videos offline
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # File and storage
+  file_picker: ^6.1.1
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.4
+  
+  # Server
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  
+  # Video playback
+  video_player: ^2.9.2
+  chewie: ^1.8.5
+  video_thumbnail: ^0.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
